@@ -1,0 +1,13 @@
+devops-netology
+
+ NAVIGATION_CONFIG
+CONSTANT jsonb[] := ARRAY[
+jsonb_build_object('welcomeTest', 'enable', 'userInterests', 'skip', 'expressCourses', 'enable', 'grammarCourses', 'enable','glossaries', 'enable', 'grammarTrainings', 'enable', 'wordTrainings', 'enable', 'audioTrainings', 'enable', 'readingTrainings' , 'enable'),
+
+jsonb_build_object('welcomeTest', 'enable', 'userInterests', 'skip', 'expressCourses', 'disable', 'grammarCourses', 'disable','glossaries', 'disable', 'grammarTrainings', 'disable', 'wordTrainings', 'enable', 'audioTrainings', 'enable', 'readingTrainings' , 'enable'),
+	
+jsonb_build_object('welcomeTest', 'disable', 'userInterests', 'skip', 'expressCourses', 'disable', 'grammarCourses', 'disable', 'glossaries', 'disable', 'grammarTrainings', 'disable', 'wordTrainings', 'enable', 'audioTrainings', 'disable', 'readingTrainings' , 'disable'),
+	
+jsonb_build_object('welcomeTest', 'disable', 'userInterests', 'skip', 'expressCourses', 'disable', 'grammarCourses', 'disable','glossaries', 'disable', 'grammarTrainings', 'disable', 'wordTrainings', 'enable', 'audioTrainings', 'disable', 'readingTrainings' , 'disable')
+ ];
+
